@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArbolAlturaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lib/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lib/GrafoPeso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Arbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +39,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/asus/OneDrive/America/Apuntes/4to Semestre/Programacion Avanzada/2do Parcial/Practica/untitled/src/Lib"
+    "last_opened_file_path": "C:/Users/asus/OneDrive/America/Apuntes/4to Semestre/Programacion Avanzada/2do Parcial/Practica/Practica-2do-Parcial-/src"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\OneDrive\America\Apuntes\4to Semestre\Programacion Avanzada\2do Parcial\Practica\Practica-2do-Parcial-\src" />
       <recent name="C:\Users\asus\OneDrive\America\Apuntes\4to Semestre\Programacion Avanzada\2do Parcial\Practica\untitled\src\Lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArbolAlturaDemo">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="ArbolAlturaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArbolAlturaDemo" />
       <module name="untitled" />
@@ -59,13 +64,6 @@
     </configuration>
     <configuration name="ArbolBusquedaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArbolBusquedaDemo" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArbolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArbolDemo" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,13 +83,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ArbolAlturaDemo" />
         <item itemvalue="Application.ArbolBusquedaDemo" />
         <item itemvalue="Application.ArbolMejorCaso" />
         <item itemvalue="Application.ArbolPeorCaso" />
-        <item itemvalue="Application.ArbolDemo" />
       </list>
     </recent_temporary>
   </component>
