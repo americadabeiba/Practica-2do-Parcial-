@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArbolMejorCaso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArbolBusquedaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,14 @@
       <recent name="Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArbolMejorCaso">
+  <component name="RunManager" selected="Application.ArbolBusquedaDemo">
+    <configuration name="ArbolBusquedaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArbolBusquedaDemo" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArbolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArbolDemo" />
       <module name="untitled" />
@@ -72,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArbolBusquedaDemo" />
         <item itemvalue="Application.ArbolMejorCaso" />
         <item itemvalue="Application.ArbolPeorCaso" />
         <item itemvalue="Application.ArbolDemo" />
