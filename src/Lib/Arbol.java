@@ -11,11 +11,13 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         private Nodo izquierda;
         private Nodo derecha;
         private int tam;
+        private int altura;
 
         public Nodo(Llave llave, Valor valor, int tam) {
             this.llave = llave;
             this.valor = valor;
             this.tam = tam;
+            this.altura = 0;
         }
     }
     private int comparaciones;
@@ -61,6 +63,7 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         else
             x.valor = v;
         x.tam = 1 + get_tam(x.izquierda) + get_tam(x.derecha);
+        x.altura = 1 + Math.max(getAltura(x.izquierda), getAltura(x.derecha));
         return x;
     }
     public int getComparaciones() {return comparaciones;}
@@ -128,4 +131,15 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
             return izquierda || derecha;
         }
     }
+    public int getAltura() {return getAltura(raiz);}
+    private int getAltura(Nodo x) {
+        if (x == null)
+            return -1;
+        int alturaIzquierda = getAltura(x.izquierda);
+        int alturaDerecha = getAltura(x.derecha);
+        return Math.max(alturaIzquierda, alturaDerecha) + 1;
+    }
+    public int getAlturaNodo(Nodo x) {return x == null ? -1 : x.altura;}
+    public int getAlturaCampo() {return getAlturaNodo(raiz);}
+
 }
