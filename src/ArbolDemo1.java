@@ -1,6 +1,6 @@
 import Lib.Arbol;
 
-public class ArbolDemo {
+public class ArbolDemo1 {
     public static void main(String[] args) {
         Arbol<String, Integer> arbol = new Arbol<>();
         String[] llaves = {"E", "A", "S", "Y", "Q", "U", "E", "S", "T", "I", "O", "N"};

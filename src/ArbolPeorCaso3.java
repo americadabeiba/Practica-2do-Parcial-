@@ -1,13 +1,14 @@
 import Lib.Arbol;
 
-public class ArbolMejorCaso {
+public class ArbolPeorCaso3 {
     public static void main(String[] args) {
         String[][] ordenamientos = {
-                {"E", "C", "A", "H", "S", "R", "X"},
-                {"E", "S", "R", "X", "C", "A", "H"},
-                {"E", "C", "H", "A", "S", "X", "R"},
-                {"E", "S", "X", "R", "C", "H", "A"},
-                {"E", "C", "A", "H", "S", "X", "R"}
+                {"A", "X", "C", "S", "E", "R", "H"},
+                {"A", "C", "E", "H", "R", "S", "X"},
+                {"X", "S", "R", "H", "E", "C", "A"},
+                {"A", "X", "C", "E", "H", "S", "R"},
+                {"R", "S", "X", "H", "C", "A", "E"},
+                {"A", "H", "E", "S", "R", "C", "X"}
         };
 
         for (int i = 0; i < ordenamientos.length; i++) {
@@ -21,4 +22,3 @@ public class ArbolMejorCaso {
         }
     }
 }
-

@@ -1,6 +1,6 @@
 import Lib.Arbol;
 
-public class ArbolAlturaDemo {
+public class ArbolAlturaDemo6 {
     public static void main(String[] args) {
         Arbol<String, Integer> arbol = new Arbol<>();
 

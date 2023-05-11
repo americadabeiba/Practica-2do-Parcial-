@@ -12,6 +12,7 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         private Nodo derecha;
         private int tam;
         private int altura;
+        int sumaProfundidades;
 
         public Nodo(Llave llave, Valor valor, int tam) {
             this.llave = llave;
@@ -56,15 +57,19 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
             return new Nodo(l, v, 1);
         int comp = l.compareTo(x.llave);
         comparaciones++;
-        if (comp < 0)
+        if (comp < 0) {
             x.izquierda = insertar(x.izquierda, l, v);
-        else if (comp > 0)
+        } else if (comp > 0) {
             x.derecha = insertar(x.derecha, l, v);
-        else
+        } else {
             x.valor = v;
+        }
         x.tam = 1 + get_tam(x.izquierda) + get_tam(x.derecha);
-        x.altura = 1 + Math.max(getAltura(x.izquierda), getAltura(x.derecha));
+        x.sumaProfundidades = get_tam(x.izquierda) + get_tam(x.derecha) + (x.izquierda != null ? x.izquierda.sumaProfundidades : 0) + (x.derecha != null ? x.derecha.sumaProfundidades : 0);
         return x;
+    }
+    public double avgComparesFast() {
+        return (double) raiz.sumaProfundidades / get_tam() + 1;
     }
     public int getComparaciones() {return comparaciones;}
     public Llave getMin() {return getMin(raiz).llave;}
@@ -141,5 +146,14 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
     }
     public int getAlturaNodo(Nodo x) {return x == null ? -1 : x.altura;}
     public int getAlturaCampo() {return getAlturaNodo(raiz);}
+    public double avgCompares() {
+        return avgCompares(raiz, 0) / (double) get_tam() + 1;
+    }
+    private int avgCompares(Nodo nodo, int profundidad) {
+        if (nodo == null)
+            return 0;
+        return profundidad + avgCompares(nodo.izquierda, profundidad + 1) + avgCompares(nodo.derecha, profundidad + 1);
+    }
+
 
 }
