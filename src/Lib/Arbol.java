@@ -154,6 +154,14 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
             return 0;
         return profundidad + avgCompares(nodo.izquierda, profundidad + 1) + avgCompares(nodo.derecha, profundidad + 1);
     }
+    public static double optCompares(int N) {
+        int h = (int) (Math.log(N + 1) / Math.log(2)); // altura del árbol
+        int nodosCompletos = (int) Math.pow(2, h) - 1; // número de nodos en los h - 1 niveles superiores
+        int nodosUltimoNivel = N - nodosCompletos; // número de nodos en el último nivel
 
+        int sumaProfundidadesCompletos = nodosCompletos * h; // suma de las profundidades de los nodos en los h - 1 niveles superiores
+        int sumaProfundidadesUltimoNivel = nodosUltimoNivel * h; // suma de las profundidades de los nodos en el último nivel
 
+        return ((double) (sumaProfundidadesCompletos + sumaProfundidadesUltimoNivel)) / N;
+    }
 }
