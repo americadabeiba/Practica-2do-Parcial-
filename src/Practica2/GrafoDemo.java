@@ -1,9 +1,8 @@
 package Practica2;
 
-import Lib.Arbolrb2;
 import Lib.GrafoND;
 
-public class ArbolDemo2 {
+public class GrafoDemo {
     public static void main(String[] args) {
         GrafoND miGrafo = new GrafoND(12); // Dado que tenemos nodos desde 0 hasta 11.
         miGrafo.add_arista(0, 6);
@@ -22,5 +21,8 @@ public class ArbolDemo2 {
         miGrafo.add_arista(1, 4);
         miGrafo.imprimirGrafo();
 
+        //Ejercicio 2
+        boolean existeArista = miGrafo.has_arista(1, 4);
+        System.out.println("¿Existe una arista entre 1 y 4?: " + existeArista);
     }
 }

@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lib/Arbolrb2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/GrafoD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/GrafoND.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica2/ArbolDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica2/ArbolDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolAlturaDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolAlturaDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolBusquedaDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolBusquedaDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolMejorCaso2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolMejorCaso2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolNoRecursivoDemo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolNoRecursivoDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolPeorCaso3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolPeorCaso3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolPrueba7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/ArbolPrueba7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Arbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/ArbolNoRecursivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/ArbolNoRecursivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/GrafoND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GrafoND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica2/ArbolDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

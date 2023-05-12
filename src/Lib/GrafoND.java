@@ -107,6 +107,7 @@ public class GrafoND {
         Collections.reverse(recorrido);
         return recorrido;
     }
+    //Ejercicio 1
     public void imprimirGrafo() {
         for (int i = 0; i < vertices; i++) {
             List<Integer> listaAdyacencia = conexiones[i];
@@ -117,7 +118,41 @@ public class GrafoND {
             System.out.println();
         }
     }
-    
+    //Ejercicio 2
+    public boolean has_arista(int n1, int n2) {
+        if (n1 < 0 || n1 >= vertices || n2 < 0 || n2 >= vertices) {
+            System.out.println("Error: Nodo fuera de rango.");
+            return false;
+        }
+        return conexiones[n1].contains(n2) && conexiones[n2].contains(n1);
+    }
 }
 
+
+
+
+
+
+
+
+
+
+/*
+    0------6
+    | \  / |
+    |   2  |
+    |  / \ |
+    | /   \|
+    |/     3
+    |     /
+    5---10
+
+    7---8
+    |  /|\
+    | / | 4
+    |/  |/
+    11--1
+
+        9
+ */
 
