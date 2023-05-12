@@ -6,7 +6,6 @@ public class Dijkstra {
     private double[] distancia_a;
     private Arista[] arista_a;
     private ColaPrioridad<Double> frontera;
-
     public Dijkstra(GrafoPeso G, int e0) {
         distancia_a = new double[G.getVertices()];
         arista_a = new Arista[G.getVertices()];
@@ -22,7 +21,6 @@ public class Dijkstra {
             }
         }
     }
-
     private void generar(Arista hijo) {
         int v = hijo.getOrigen();
         int w = hijo.getDestino();
@@ -44,4 +42,6 @@ public class Dijkstra {
         }
         return camino;
     }
+    //Ejercicio 7
+
 }

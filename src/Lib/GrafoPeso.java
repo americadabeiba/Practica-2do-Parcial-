@@ -9,7 +9,6 @@ public class GrafoPeso {
     private int aristas;
     private List<Arista>[] conexiones;
     private int[] entradas;
-
     public GrafoPeso(int vertices) {
         this.vertices = vertices;
         this.aristas = 0;
@@ -71,7 +70,8 @@ public class GrafoPeso {
         }
         return cad.toString();
     }
+
+
+
 }
 
-//Encuentra el camino mas corto, En dijxtra, grafo y estado inicial instancial el dixtra.
-//Deberiamos ver los caminos que hay a de a a F todos los nodos.

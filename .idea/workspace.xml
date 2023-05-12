@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lib/GrafoMatriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica2/GrafoDirigidoDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica2/GrafoPesoDemo8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Arbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/GrafoPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GrafoPeso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <recent name="Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrafoDemo">
+  <component name="RunManager" selected="Application.GrafoPesoDemo8">
     <configuration name="ArbolDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica2.ArbolDemo1" />
       <module name="untitled" />
@@ -82,13 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArbolDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica1.ArbolDemo8" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArbolNoRecursivoDemo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica1.ArbolNoRecursivoDemo9" />
       <module name="untitled" />
@@ -109,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GrafoPesoDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica2.GrafoPesoDemo8" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrafoPesoDemo8" />
         <item itemvalue="Application.GrafoDemo" />
         <item itemvalue="Application.ArbolDemo2" />
         <item itemvalue="Application.ArbolDemo1" />
         <item itemvalue="Application.ArbolNoRecursivoDemo9" />
-        <item itemvalue="Application.ArbolDemo8" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +138,17 @@
       <updated>1683289477362</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Lib/Dijkstra.java</url>
+          <line>5</line>
+          <properties field="distancia_a" class="Lib.Dijkstra" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
