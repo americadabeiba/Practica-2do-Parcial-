@@ -126,6 +126,29 @@ public class GrafoND {
         }
         return conexiones[n1].contains(n2) && conexiones[n2].contains(n1);
     }
+    //Ejercicio 3
+    public boolean estanConectados(int origen, int destino) {
+        if (origen < 0 || origen >= vertices || destino < 0 || destino >= vertices) {
+            System.out.println("Error: Nodo fuera de rango.");
+            return false;
+        }
+        boolean[] visitado = new boolean[vertices];
+        return estanConectadosAux(origen, destino, visitado);
+    }
+    private boolean estanConectadosAux(int nodoActual, int nodoDestino, boolean[] visitado) {
+        if (nodoActual == nodoDestino) {
+            return true;
+        }
+        visitado[nodoActual] = true;
+        for (Integer vecino : conexiones[nodoActual]) {
+            if (!visitado[vecino]) {
+                if (estanConectadosAux(vecino, nodoDestino, visitado)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
 

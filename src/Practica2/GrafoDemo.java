@@ -24,5 +24,13 @@ public class GrafoDemo {
         //Ejercicio 2
         boolean existeArista = miGrafo.has_arista(1, 4);
         System.out.println("¿Existe una arista entre 1 y 4?: " + existeArista);
+
+        //Ejercicio 3
+        boolean resultado = miGrafo.estanConectados(0, 6);
+        if(resultado)
+            System.out.println("Los nodos 0 y 6 están conectados");
+        else
+            System.out.println("Los nodos 0 y 6 no están conectados");
+
     }
 }

@@ -7,7 +7,7 @@
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lib/GrafoND.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GrafoND.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica2/ArbolDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica2/GrafoDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArbolDemo2">
+  <component name="RunManager" selected="Application.GrafoDemo">
     <configuration name="ArbolDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica2.ArbolDemo1" />
       <module name="untitled" />
@@ -96,20 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArbolPrueba7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica1.ArbolPrueba7" />
+    <configuration name="GrafoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica2.GrafoDemo" />
       <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrafoDemo" />
         <item itemvalue="Application.ArbolDemo2" />
         <item itemvalue="Application.ArbolDemo1" />
         <item itemvalue="Application.ArbolNoRecursivoDemo9" />
         <item itemvalue="Application.ArbolDemo8" />
-        <item itemvalue="Application.ArbolPrueba7" />
       </list>
     </recent_temporary>
   </component>
