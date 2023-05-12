@@ -1,7 +1,9 @@
 package Lib;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Arbol <Llave extends Comparable<Llave>, Valor> {
     private Nodo raiz;
@@ -161,6 +163,7 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         return ((double) (sumaProfundidadesCompletos + sumaProfundidadesUltimoNivel)) / N;
         //Implementar
     }
+    //Ejercicio 5
     public void imprimirArbol() {
         imprimirArbol(raiz);
         System.out.println();
@@ -173,6 +176,42 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         imprimirArbol(x.izquierda);
         System.out.print(x.llave + " ");
         imprimirArbol(x.derecha);
+    }
+    //Ejercicio 6
+    public void dfs(Llave l) {
+        dfs(raiz, l);
+    }
+
+    private void dfs(Nodo x, Llave l) {
+        if (x == null) {
+            return;
+        }
+        System.out.print(x.llave + " ");
+        if (x.llave.equals(l)) {
+            System.out.println("\nEncontrado: " + l);
+            return;
+        }
+        dfs(x.izquierda, l);
+        dfs(x.derecha, l);
+    }
+
+    public void bfs(Llave l) {
+        Queue<Nodo> queue = new LinkedList<>();
+        queue.add(raiz);
+        while (!queue.isEmpty()) {
+            Nodo x = queue.poll();
+            System.out.print(x.llave + " ");
+            if (x.llave.equals(l)) {
+                System.out.println("\nEncontrado: " + l);
+                return;
+            }
+            if (x.izquierda != null) {
+                queue.add(x.izquierda);
+            }
+            if (x.derecha != null) {
+                queue.add(x.derecha);
+            }
+        }
     }
 
 }

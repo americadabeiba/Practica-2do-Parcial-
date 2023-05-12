@@ -49,5 +49,11 @@ public class GrafoDemo {
         miArbol.insertar(4, "Nodo 4");
 
         miArbol.imprimirArbol();
+
+        //Ejericicio 5
+        miArbol.dfs(3);  // Búsqueda en profundidad (DFS) de la llave 3
+        miArbol.bfs(3);  // Búsqueda en amplitud (BFS) de la llave 3
+
+
     }
 }
