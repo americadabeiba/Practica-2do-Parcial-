@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArbolDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArbolNoRecursivoDemo9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Arbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <recent name="Lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArbolDemo8">
+  <component name="RunManager" selected="Application.ArbolNoRecursivoDemo9">
     <configuration name="ArbolAlturaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArbolAlturaDemo" />
       <module name="untitled" />
@@ -61,15 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArbolBusquedaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArbolBusquedaDemo" />
+    <configuration name="ArbolDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArbolDemo8" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArbolDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArbolDemo8" />
+    <configuration name="ArbolNoRecursivoDemo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArbolNoRecursivoDemo9" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArbolNoRecursivoDemo9" />
         <item itemvalue="Application.ArbolDemo8" />
         <item itemvalue="Application.ArbolPrueba7" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ArbolAlturaDemo" />
-        <item itemvalue="Application.ArbolBusquedaDemo" />
       </list>
     </recent_temporary>
   </component>
