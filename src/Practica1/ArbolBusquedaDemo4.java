@@ -1,3 +1,5 @@
+package Practica1;
+
 import Lib.Arbol;
 
 public class ArbolBusquedaDemo4 {
@@ -14,7 +16,6 @@ public class ArbolBusquedaDemo4 {
                 {2, 7, 3, 8, 4, 5},
                 {1, 2, 10, 4, 8, 5}
         };
-
         for (int i = 0; i < secuencias.length; i++) {
             if (!puedeSerSecuencia(arbol, secuencias[i], 5))
                 System.out.println("La secuencia " + (i + 1) + " no puede ser la secuencia de teclas examinada.");

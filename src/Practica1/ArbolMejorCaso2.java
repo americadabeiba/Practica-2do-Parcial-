@@ -1,3 +1,5 @@
+package Practica1;
+
 import Lib.Arbol;
 
 public class ArbolMejorCaso2 {

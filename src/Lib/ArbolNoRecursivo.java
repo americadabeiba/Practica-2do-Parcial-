@@ -2,20 +2,17 @@ package Lib;
 
 public class ArbolNoRecursivo<Llave extends Comparable<Llave>, Valor> {
     private Nodo raiz;
-
     class Nodo {
         private Llave llave;
         private Valor valor;
         private Nodo izquierda, derecha;
         private int tam;
-
         public Nodo(Llave llave, Valor valor, int tam) {
             this.llave = llave;
             this.valor = valor;
             this.tam = tam;
         }
     }
-
     public Valor getValorByLlave(Llave l) {
         Nodo x = raiz;
         while (x != null) {
@@ -26,7 +23,6 @@ public class ArbolNoRecursivo<Llave extends Comparable<Llave>, Valor> {
         }
         return null;
     }
-
     public void insertar(Llave l, Valor v) {
         Nodo nuevo = new Nodo(l, v, 1);
         if (raiz == null) {

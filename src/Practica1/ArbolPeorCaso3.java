@@ -1,3 +1,5 @@
+package Practica1;
+
 import Lib.Arbol;
 
 public class ArbolPeorCaso3 {
@@ -10,7 +12,6 @@ public class ArbolPeorCaso3 {
                 {"R", "S", "X", "H", "C", "A", "E"},
                 {"A", "H", "E", "S", "R", "C", "X"}
         };
-
         for (int i = 0; i < ordenamientos.length; i++) {
             Arbol<String, Integer> arbol = new Arbol<>();
             for (String llave : ordenamientos[i]) {

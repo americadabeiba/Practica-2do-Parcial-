@@ -1,3 +1,5 @@
+package Practica1;
+
 import Lib.Arbol;
 public class ArbolDemo8 {
     public static void main(String[] args) {
