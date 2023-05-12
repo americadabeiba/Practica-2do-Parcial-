@@ -68,9 +68,7 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         x.sumaProfundidades = get_tam(x.izquierda) + get_tam(x.derecha) + (x.izquierda != null ? x.izquierda.sumaProfundidades : 0) + (x.derecha != null ? x.derecha.sumaProfundidades : 0);
         return x;
     }
-    public double avgComparesFast() {
-        return (double) raiz.sumaProfundidades / get_tam() + 1;
-    }
+    public double avgComparesFast() {return (double) raiz.sumaProfundidades / get_tam() + 1;}
     public int getComparaciones() {return comparaciones;}
     public Llave getMin() {return getMin(raiz).llave;}
     private Nodo getMin(Nodo x) {
@@ -150,8 +148,7 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
         return avgCompares(raiz, 0) / (double) get_tam() + 1;
     }
     private int avgCompares(Nodo nodo, int profundidad) {
-        if (nodo == null)
-            return 0;
+        if (nodo == null) return 0;
         return profundidad + avgCompares(nodo.izquierda, profundidad + 1) + avgCompares(nodo.derecha, profundidad + 1);
     }
     public static double optCompares(int N) {
@@ -161,8 +158,21 @@ public class Arbol <Llave extends Comparable<Llave>, Valor> {
 
         int sumaProfundidadesCompletos = nodosCompletos * h; // suma de las profundidades de los nodos en los h - 1 niveles superiores
         int sumaProfundidadesUltimoNivel = nodosUltimoNivel * h; // suma de las profundidades de los nodos en el último nivel
-
         return ((double) (sumaProfundidadesCompletos + sumaProfundidadesUltimoNivel)) / N;
         //Implementar
     }
+    public void imprimirArbol() {
+        imprimirArbol(raiz);
+        System.out.println();
+    }
+
+    private void imprimirArbol(Nodo x) {
+        if (x == null) {
+            return;
+        }
+        imprimirArbol(x.izquierda);
+        System.out.print(x.llave + " ");
+        imprimirArbol(x.derecha);
+    }
+
 }
