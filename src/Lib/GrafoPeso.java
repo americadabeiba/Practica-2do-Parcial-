@@ -57,7 +57,6 @@ public class GrafoPeso {
     public void setAristas(int aristas) {
         this.aristas = aristas;
     }
-
     @Override
     public String toString() {
         StringBuilder cad = new StringBuilder();
@@ -70,8 +69,13 @@ public class GrafoPeso {
         }
         return cad.toString();
     }
-
-
-
+    //EJERCICIO 7
+    public void aumentarPesoAristas(double constante) {
+        for (int i = 0; i < vertices; i++) {
+            for (Arista a : conexiones[i]) {
+                a.setPeso(a.getPeso() + constante);
+            }
+        }
+    }
 }
 
