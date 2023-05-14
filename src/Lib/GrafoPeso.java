@@ -100,5 +100,10 @@ public class GrafoPeso {
                     diametro = Math.max(diametro, dist[i][j]);
         return diametro;
     }
+    //EJERCICIO 10
+    public Iterable<Arista> obtenerCaminoMasCorto(int origen, int destino) {
+        Dijkstra dijkstra = new Dijkstra(this, origen);
+        return dijkstra.get_camino(destino);
+    }
 }
 
