@@ -77,5 +77,28 @@ public class GrafoPeso {
             }
         }
     }
+    //EJERCICIO 9
+    public double diametro() {
+        double[][] dist = new double[vertices][vertices];
+        for (int i = 0; i < vertices; i++)
+            Arrays.fill(dist[i], Double.POSITIVE_INFINITY);
+        for (int v = 0; v < vertices; v++) {
+            for (Arista a : conexiones[v]) {
+                dist[a.getOrigen()][a.getDestino()] = a.getPeso();
+            }
+        }
+        for (int v = 0; v < vertices; v++) dist[v][v] = 0;
+        for (int k = 0; k < vertices; k++)
+            for (int i = 0; i < vertices; i++)
+                for (int j = 0; j < vertices; j++)
+                    if (dist[i][k] < Double.POSITIVE_INFINITY && dist[k][j] < Double.POSITIVE_INFINITY)
+                        dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
+        double diametro = 0;
+        for (int i = 0; i < vertices; i++)
+            for (int j = 0; j < vertices; j++)
+                if (dist[i][j] != Double.POSITIVE_INFINITY)
+                    diametro = Math.max(diametro, dist[i][j]);
+        return diametro;
+    }
 }
 

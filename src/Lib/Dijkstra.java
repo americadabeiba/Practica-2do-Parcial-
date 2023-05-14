@@ -37,9 +37,8 @@ public class Dijkstra {
     public Iterable<Arista> get_camino(int v){
         if(!hay_camino_a(v)) return null;
         Stack<Arista> camino = new Stack<>();
-        for(Arista a = arista_a[v]; a!=null; a = arista_a[a.getOrigen()]){
+        for(Arista a = arista_a[v]; a!=null; a = arista_a[a.getOrigen()])
             camino.push(a);
-        }
         return camino;
     }
     //Ejercicio 7

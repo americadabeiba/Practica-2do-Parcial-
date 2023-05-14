@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/GrafoPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GrafoPeso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica2/GrafoDirigidoDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica2/GrafoDirigidoDemo7.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0f29d2f-d3c9-4234-8290-cc7cb61e3232" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
